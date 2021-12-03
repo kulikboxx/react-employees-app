@@ -1,0 +1,22 @@
+.app__button {
+    padding: 0.5em 1.5em;
+    font-size: 1.6rem;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #002855;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.app__button.active {
+    background-color: #518FF8;
+}
+
+.app__button:hover {
+    background-color: #518FF8;
+}

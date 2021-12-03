@@ -1,0 +1,10 @@
+.app__company {
+    display: grid;
+    grid-template-rows: repeat(3, 1f);
+    column-gap: 1.5em;
+    row-gap: 15px;
+    padding: 3em;
+    color: #ffffff;
+    background-color: #002855;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}

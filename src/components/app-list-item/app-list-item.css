@@ -1,0 +1,54 @@
+.app__list-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    font-size: 1.8rem;
+    border-bottom: 1px solid #aaaaaa;
+}
+
+.app__list-item:last-of-type {
+    border-bottom: none;
+}
+
+.app__list-item.cash-bonus {
+    color: #518FF8;
+    font-weight: 700;
+}
+
+.app__list-item.cash-bonus .app__tool.cash-bonus {
+    color: #518FF8;
+}
+
+.app__list-item.promotion .app__tool.promotion{
+    color: #ffa500;
+}
+
+.app__content {
+    display: flex;
+}
+
+.app__salary {
+    margin-right: 3em;
+    font-weight: 700;
+}
+
+.app__tool {
+    margin: 0 0.7em;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+.app__tool.cash-bonus:hover {
+    color: #518FF8;
+}
+
+.app__tool.promotion:hover {
+    color: #ffa500;
+}
+
+.app__tool.delete:hover {
+    color: #ff0000;
+}
